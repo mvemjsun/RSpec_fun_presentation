@@ -113,7 +113,7 @@ end
 
 
 ### Output with documentation
-When we run `rake test:part3` we get
+When we run `rake test:part4` we get
 ```
 FootballTeam
   should have 11 players

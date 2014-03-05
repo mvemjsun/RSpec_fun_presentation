@@ -23,4 +23,9 @@ namespace :test do
 		Dir.chdir(File.dirname(__FILE__) + "/part4")
 		t.rspec_opts = "-f d"
 	end
+
+	RSpec::Core::RakeTask.new(:part5) do |t|
+		Dir.chdir(File.dirname(__FILE__) + "/part5")
+		t.rspec_opts = "-f d"
+	end	
 end

@@ -22,8 +22,8 @@ end
 #
 # implicit Subject
 #
-describe FootballTeam  do
-	
-	it {should be_empty}
-
+describe "A team with no players" do
+	describe FootballTeam  do
+		it {should be_empty}
+	end
 end

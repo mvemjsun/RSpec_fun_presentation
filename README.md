@@ -16,6 +16,9 @@ Please checkout the README files for the details of some demo's I did some time 
 4. [Part 4] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_4.md)
 	Implicit and explicit subject.
 
+4. [Part 5] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_5.md)
+	Introduction to mocking objects. Stubs, doubles and message expectations
+
 ### Running the tests
 To run the tests do `rake test:part1` or `rake test:part2` and so on.
 To run all tests do `rake test:all`

@@ -115,7 +115,14 @@ end
 ### Output with documentation
 When we run `rake test:part3` we get
 ```
+FootballTeam
+  should have 11 players
 
+FootballTeam
+  should be empty
+
+Finished in 0.054 seconds
+2 examples, 0 failures
 ```
 
 ### Further info at

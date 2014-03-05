@@ -18,6 +18,9 @@ That is when the car slows down brakes should have be applied.
 
 2. How message expectation works
 
+It is worth noting tha message expectation increases the coupling between the test and the code and should be used with care. They
+should be used for very specific test conditions.
+
 ```ruby
 @car.should_receive(:brake).and_return(30)
 [...]
@@ -64,8 +67,13 @@ describe "Car" do
 A car class that is under development
 
 ```ruby
+#
+# A Car class that is being built
+#
 class Car
 
+  attr_reader :speed, :make, :model, :cc, :fuel
+  
   def initialize(options)
     @make = options[:make]
     @model = options[:model]
@@ -98,6 +106,7 @@ class Car
   def slow_down(speed)
     brake
     @speed = speed
+    stop if speed == 0
   end
 
   def turn(direction)
@@ -117,15 +126,16 @@ When we run `rake test:part5` we get
 A car
   should indicate left when turned left
   should indicate right when turned right
+  should be able to stop
 
 Use brakes
   Car should use brakes when slowed down
 
-Car
-  should be able to change gear
+Gear
+  car should be able to change gear
 
-Finished in 0.02701 seconds
-4 examples, 0 failures
+Finished in 0.005 seconds
+5 examples, 0 failures
 ```
 
 ### Further info at

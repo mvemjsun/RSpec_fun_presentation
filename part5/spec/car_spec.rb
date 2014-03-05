@@ -11,7 +11,7 @@ describe "A car" do
 		@car = Car.new({:make => "Ford", :model => "Fiesta", :cc => "1.2", :fuel => "Petrol"})
 		@car.stub(:indicate_left).and_return(:left)
 		@car.stub(:indicate_right).and_return(:right)
-		
+		@car.stub(:brake)
 	end
 
 	it "should indicate left when turned left" do
@@ -20,6 +20,12 @@ describe "A car" do
 
 	it "should indicate right when turned right" do
 		@car.turn({:direction => :right}).should == :right
+	end
+
+	it "should be able to stop" do
+		@car.should_receive(:stop).and_return(0)
+		@car.slow_down(0)
+		@car.speed.should == 0
 	end
 end
 
@@ -42,7 +48,7 @@ end
 # method implementation injection, here we create a gear double and then inject a method "change_to" 
 # into the gear object 
 #
-describe "Car" do
+describe "Gear" do
 
 	before(:each) do
 		@gear = double("gear")
@@ -57,7 +63,7 @@ describe "Car" do
 		@car = Car.new({:make => "Vauxhall", :model => "Corsa", :cc => "1.4", :fuel => "Petrol", :gear => @gear})
 	end
 
-	it "should be able to change gear" do
+	it "car should be able to change gear" do
 		@car.gear.change_to(1).should == 1
 		@car.gear.change_to(2).should == 2
 		@car.gear.change_to(3).should == 3

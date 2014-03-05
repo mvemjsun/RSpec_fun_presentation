@@ -1,0 +1,7 @@
+# Logfile created on 2014-03-05 18:30:37 +0000 by logger.rb/31641
+I, [2014-03-05T18:30:37.180378 #5440]  INFO -- : 0:  diff-lcs (1.2.5) from D:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-03-05T18:30:37.181378 #5440]  INFO -- : 0:  rspec-core (2.14.7) from D:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/specifications/rspec-core-2.14.7.gemspec
+I, [2014-03-05T18:30:37.183378 #5440]  INFO -- : 0:  rspec-expectations (2.14.5) from D:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/specifications/rspec-expectations-2.14.5.gemspec
+I, [2014-03-05T18:30:37.184378 #5440]  INFO -- : 0:  rspec-mocks (2.14.5) from D:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/specifications/rspec-mocks-2.14.5.gemspec
+I, [2014-03-05T18:30:37.186378 #5440]  INFO -- : 0:  rspec (2.14.1) from D:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/specifications/rspec-2.14.1.gemspec
+I, [2014-03-05T18:30:37.186378 #5440]  INFO -- : 0:  bundler (1.5.1) from D:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/specifications/bundler-1.5.1.gemspec

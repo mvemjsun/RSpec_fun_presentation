@@ -3,6 +3,8 @@
 #
 class Car
 
+	attr_reader :speed, :make, :model, :cc, :fuel
+	
 	def initialize(options)
 		@make = options[:make]
 		@model = options[:model]
@@ -35,6 +37,7 @@ class Car
 	def slow_down(speed)
 		brake
 		@speed = speed
+		stop if speed == 0
 	end
 
 	def turn(direction)

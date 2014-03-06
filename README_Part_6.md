@@ -1,4 +1,4 @@
-## Fun with RSpec - Part 5
+## Fun with RSpec - Part 6
 > Exploring Behaviour-Driven Development with Ruby. Testing what should happen rathen than what will happen.
 
 ### In this part
@@ -38,7 +38,7 @@ end
 ### About the code under test
 
 #### `CashMachine` class
-A CashMAchine class that is under development !
+A CashMachine class that is under development !
 
 ```ruby
 class CashMachine

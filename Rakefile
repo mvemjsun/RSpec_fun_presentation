@@ -6,36 +6,36 @@ namespace :test do
 
 	RSpec::Core::RakeTask.new(:part1) do |t|
 		Dir.chdir(File.dirname(__FILE__) + "/part1")
-		t.rspec_opts = "-f d"
+		t.rspec_opts = "-f d -c"
 	end
 
 	RSpec::Core::RakeTask.new(:part2) do |t|
 		Dir.chdir(File.dirname(__FILE__) + "/part2")
-		t.rspec_opts = "-f d"
+		t.rspec_opts = "-f d -c"
 	end
 
 	RSpec::Core::RakeTask.new(:part3) do |t|
 		Dir.chdir(File.dirname(__FILE__) + "/part3")
-		t.rspec_opts = "-f d"
+		t.rspec_opts = "-f d -c"
 	end
 
 	RSpec::Core::RakeTask.new(:part4) do |t|
 		Dir.chdir(File.dirname(__FILE__) + "/part4")
-		t.rspec_opts = "-f d"
+		t.rspec_opts = "-f d -c"
 	end
 
 	RSpec::Core::RakeTask.new(:part5) do |t|
 		Dir.chdir(File.dirname(__FILE__) + "/part5")
-		t.rspec_opts = "-f d"
+		t.rspec_opts = "-f d -c"
 	end
 
 	RSpec::Core::RakeTask.new(:part6) do |t|
 		Dir.chdir(File.dirname(__FILE__) + "/part6")
-		t.rspec_opts = "-f d"
+		t.rspec_opts = "-f d -c"
 	end
 
 	RSpec::Core::RakeTask.new(:part7) do |t|
 		Dir.chdir(File.dirname(__FILE__) + "/part7")
-		t.rspec_opts = "-f d"
+		t.rspec_opts = "-f d -c"
 	end		
 end

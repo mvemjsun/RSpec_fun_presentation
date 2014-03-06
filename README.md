@@ -1,9 +1,27 @@
 ## Fun with RSpec series
 > Exploring Behaviour-Driven Development with Ruby. Testing what should happen rathen than what will happen.
 
-Please checkout the README files for the details of some RSpec fun. RSpec is a testing tool for the Ruby programming language that
-is aligned well to the idea of BDD and story driven development. The idea is to take little steps in the development process by writing tests for every feature we introduce.
+RSpec is a testing tool for the Ruby programming language that is aligned well to the idea of BDD and story driven development. 
+The idea is to take little steps in the development process by writing tests for every feature we introduce.
 
+Please checkout the README files. Each part implements a feature in RSpec with simple examples. 
+
+```ruby
+describe 'The solar system' do
+	
+	before(:each) do
+		@solarSystem = SolarSystem.new
+	end
+
+	it "should have 8 planets" do
+		@solarSystem.planets.count.should == 8
+	end
+
+	it "farthest planet should be Neptune" do
+		@solarSystem.farthest_panet.should == "Neptune"
+	end
+end
+```
 
 
 1. [Part 1] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_1.md)
@@ -26,7 +44,7 @@ is aligned well to the idea of BDD and story driven development. The idea is to 
 	Custom argument matchers
 
 7. [Part 7] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_7.md)
-	Expecting consecutive values to be returned
+	Expecting consecutive values to be returned from a method 
 
 ### Running the tests
 

@@ -31,7 +31,7 @@ describe "Bank database" do
 			expect(@bankDatabase).to respond_to(:get_account_details)
 		end
 
-		it "should raise Account not found exception when we search for an account" do
+		it "should raise Account not found exception when we search for an unknown account" do
 			expect {
 				@bankDatabase.get_account_details(1)
 			}.to raise_error("AccountNotFound")

@@ -179,7 +179,7 @@ Bank database
     should provide way to add an account
     should provide way to update an account
     should provide way to get account details
-    should raise Account not found exception when we search for an account
+    should raise Account not found exception when we search for an unknown account
 
 Bank account
   Invalid account attributes

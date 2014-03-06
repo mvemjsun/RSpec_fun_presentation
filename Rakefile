@@ -37,5 +37,5 @@ namespace :test do
 	RSpec::Core::RakeTask.new(:part7) do |t|
 		Dir.chdir(File.dirname(__FILE__) + "/part7")
 		t.rspec_opts = "-f d -c"
-	end		
+	end
 end

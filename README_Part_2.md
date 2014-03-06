@@ -206,6 +206,8 @@ Bank account and bank database
 Finished in 0.12502 seconds
 18 examples, 0 failures
 ```
+### Next
+[Goto Part 3] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_3.md)
 
 ### Further info at
 1. [RSpec] (https://www.relishapp.com/rspec/rspec-core/v/3-0/docs)

@@ -126,7 +126,7 @@ When we run `rake test:part1` we get
 ```
 A Human being
   should have name, age, type and gender
-  has age related behaviour
+  has age related Behaviour-Driven
     Baby
       should Waa when greeted
       should Cry when pushed
@@ -140,6 +140,8 @@ A Human being
 Finished in 0.018 seconds
 7 examples, 0 failures
 ```
+### Next
+[Goto Part 2] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_2.md)
 
 ### Further info at
 1. [RSpec] (https://www.relishapp.com/rspec/rspec-core/v/3-0/docs)

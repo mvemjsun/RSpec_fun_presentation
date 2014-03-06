@@ -124,6 +124,8 @@ FootballTeam
 Finished in 0.054 seconds
 2 examples, 0 failures
 ```
+### Next
+[Goto Part 5] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_5.md)
 
 ### Further info at
 1. [RSpec] (https://www.relishapp.com/rspec/rspec-core/v/3-0/docs)

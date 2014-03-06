@@ -137,6 +137,8 @@ Gear
 Finished in 0.005 seconds
 5 examples, 0 failures
 ```
+### Next
+[Goto Part 6] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_6.md)
 
 ### Further info at
 1. [RSpec] (https://www.relishapp.com/rspec/rspec-core/v/3-0/docs)

@@ -72,6 +72,8 @@ Failures:
               got: (14)
      # ./spec/cashmachine_spec.rb:13:in `block (2 levels) in <top (required)>'
 ```
+### Next
+[Goto Part 7] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_7.md)
 
 ### Further info at
 1. [RSpec] (https://www.relishapp.com/rspec/rspec-core/v/3-0/docs)

@@ -137,5 +137,8 @@ Finished in 0.049 seconds
 6 examples, 0 failures
 ```
 
+### Next
+[Goto Part 4] (https://github.com/mvemjsun/RSpec_fun/blob/master/README_Part_4.md)
+
 ### Further info at
 1. [RSpec] (https://www.relishapp.com/rspec/rspec-core/v/3-0/docs)

@@ -3,23 +3,35 @@
 
 ### In this part
 1. we demonstrate ExampleGroup
+
+An example group is a collection of tests.
+
 ```ruby
 describe "A Human being" do
 ```
 
 2. Example
+
+An example is an executable test.
+
 ```ruby
 it "should have name, age, type and gender" 
 ```
 
 3. Nested groups
+
+Nested groups help to better organise the tests, we can group tests that are similar under groups or contexts.
+
 ```ruby
 describe "A Human being" do
  ...
    describe "has age related behaviour" do
 ```
 
-4. `Before(:all)` hook 
+4. `Before(:all)` hook
+
+Hooks are used when we want to run some code before, after each example. There are also hooks that can be run once. Similarly we have hooks that can be run around each example.
+
 ```ruby
 before(:all) do
 	@baby = HumanBeing.new(options={:age => 2, :name => "James", :gender => "male"})

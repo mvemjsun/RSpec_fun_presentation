@@ -1,5 +1,5 @@
 ## Fun with RSpec series
-> Exploring Behaviour-Driven Development with Ruby. Testing what should happen rathen than what will happen.
+> Exploring Behaviour-Driven Development with Ruby. Testing what should happen rather than what will happen.
 
 
 ```ruby
@@ -14,7 +14,7 @@ describe 'The solar system' do
 	end
 
 	it "farthest planet should be Neptune" do
-		@solarSystem.farthest_panet.should == "Neptune"
+		@solarSystem.farthest_planet.should == "Neptune"
 	end
 end
 ```

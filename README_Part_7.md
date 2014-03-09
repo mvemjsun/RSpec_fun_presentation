@@ -74,7 +74,7 @@ class SchoolmealAccount
   #
   def eat_meal
     raise "NotEnoughFunds" if @balance < @meal_cost
-    @balance = balance - 3
+    @balance = balance - @meal_cost
   end
 
   def lunch_break
